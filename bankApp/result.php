@@ -35,7 +35,7 @@
             // echo "Transaction failed!!";
         }
         else {
-            $sql = "SELECT BALANCE FROM customer WHERE NAME='$sender'";
+            $sql = "SELECT BALANCE FROM customer WHERE ID_NO='$sender'";
             $result = $con->query($sql);
             if ($result->num_rows > 0) {
                 while($row = $result->fetch_assoc()) {
