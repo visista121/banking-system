@@ -1,0 +1,108 @@
+
+    *{
+        padding: 0;  
+        margin: 0;
+    }
+    body{
+        background-color: white;
+    }
+    .title{
+        color:#2874f0;
+        display: inline-block;
+        font-family: 'Raleway', sans-serif;
+        position: relative;
+        top: 4vh;
+        left: 17vw;
+        text-align: center;
+    }
+    .himg{
+        display: inline-block;
+        position: absolute;
+        top: -30px;
+        left: 413px;
+}
+    
+    .image{
+        display: inline-block;
+        position: relative;
+        top: 12vh;
+        left: 10vw;
+    }
+    .button{
+        background-color: #2874f0;
+        color: white;
+        border: black solid 2px;
+        border-style: unset;
+        border-radius: 9px;
+        padding: 15px 32px;
+        text-decoration: none;
+        position:absolute;
+        top: 100px;
+        left: 153px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
+    }
+    .navbar{
+        background-color:black; 
+        border: 10px solid rgb(228, 212, 212);
+        border-style: inset;
+        height: 9vh;
+        width: 98vw;
+        position: relative;
+        /* height: 50%; */
+
+
+    }
+    .navbar ul{
+         overflow: auto;
+    }
+     .navbar li{
+         list-style: none;
+         padding: 15px;
+         font-family: 'Raleway', sans-serif;
+         /* font-family: 'Roboto', sans-serif; */
+    }
+     .navbar li a{
+         text-decoration: none;
+         color: white;
+         padding: 9px 2px;
+         font-size: 1.4vw;
+         /* font: icon; */
+         /* font-weight: bold; */
+         
+    }
+     .navbar li a:hover{
+         text-decoration: underline;
+         color: lightblue;
+         padding: 9px 2px;
+    }
+    .Icompany{
+        width: 4px;
+        height: 4px;
+        display: inline;
+        position: absolute;
+        top: -6px;
+        left: 0;
+        float: left;
+    }
+    .company{
+        position: absolute;
+        top: 2px;
+        left: 58px;
+        float: left;
+    }
+    .other{
+        float: right;
+    }
+    .footer{
+        text-align: center;
+        display: block;
+        position: relative;
+        top: 18vh;
+        left: 0vw; 
+        background-color: #2874f0;
+        color: white;
+        
+         
+    }
+    
+    

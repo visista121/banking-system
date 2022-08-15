@@ -1,0 +1,182 @@
+body{
+    background-color: white;
+    position: relative;
+    
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+.image{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 35vw;
+}
+.title{
+    display: inline-block;
+    text-decoration: underline;
+}
+.table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 17vw;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    bottom: -73vh;
+    
+    
+}
+.table td, .table th{
+    border : 1px solid #ddd;
+    padding: 10px;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr{
+    text-align: center;   
+}
+.table tr:hover {
+    background-color: #ddd;
+    
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #2874f0;
+  color: white;
+}
+
+.button{
+    background-color:#508ef1;
+    border: none;
+    color: white;
+    padding: 5px, 5px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+   
+}
+.button span{
+    /* background-color: #2874f0; */
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 00.5s;
+}
+
+.button span:after{
+    content: '\00bb';
+    position: absolute;
+    right: -20px;
+    transition: 00.5s;
+}
+.button:hover span{
+    padding-right: 15px;
+}
+.button:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+.bank{
+    position: relative;
+    bottom: -10vh;
+    left: 31px;
+    z-index: 1;
+}
+.clc{
+    position: relative;
+    bottom: -37vh;
+    left: 120px;
+    z-index: 1;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.drop{
+    position: absolute;
+    top: 35em;
+    left: 38vw;
+    background-color: #074b63;
+    display: inline-block;
+    width: 20em;
+    height: 4.5em;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.button1{
+    position: absolute;
+    background-color:#508ef1;
+    border: 1px solid white;;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 1.5em;
+    width: 10em;
+    height: 3em;
+    display: inline;
+    top: 0.5em;
+    left: 1em;
+}
+.button2{
+    position: absolute;
+    background-color:#508ef1;
+    border: 1px solid white;;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 1.5em;
+    width: 10em;
+    height: 3em;
+    top: 0.6em;
+    left:13em;
+}

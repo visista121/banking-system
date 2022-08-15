@@ -1,0 +1,87 @@
+body{
+    /* margin: 0;
+    padding: 0; */
+    background-color: #c5c8db;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.box{
+    background-color: #060f4f;
+    position: relative;
+    width: 50%;
+    height: 53vh;
+    color: white;
+    box-shadow: 5px 5px 5px 5px #888888;
+    border-radius: 20px;
+    top: 8.5em;
+    left: 25vw;
+}
+.correct{
+    position: absolute;
+    top: 3em;
+    left: 19em;
+}
+.c{
+    position: absolute;
+    font-size: 2em;
+    top: 4em;
+    left: 7em;
+}
+.wrong{
+    position: absolute;
+    top: 3em;
+    left: 19em;
+}
+.w{
+    position: absolute;
+    font-size: 2em;
+    top: 4em;
+    left: 7em;
+}
+.home{
+    position: absolute;
+    top: 18em;
+    left: 8em;
+    background-color:#508ef1;
+    border: 1px solid white;;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 1.5em;
+    width: 10em;
+    height: 3em;
+    
+}
+.tran{
+    position: absolute;
+    top: 18em;
+    left: 21.5em;
+    background-color:#508ef1;
+    border: 1px solid white;;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 1.5em;
+    width: 10em;
+    height: 3em;   
+}
+.cust{
+    position: absolute;
+    top: 18em;
+    right: 8em;
+    background-color:#508ef1;
+    border: 1px solid white;;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 1.5em;
+    width: 10em;
+    height: 3em;
+}
