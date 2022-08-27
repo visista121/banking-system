@@ -33,7 +33,7 @@
         if (isset($_SESSION['user']))
         {
             $user = $_SESSION['user'];
-            $result = mysqli_query($con,"SELECT * FROM customer WHERE Name='$user'");
+            $result = mysqli_query($con,"SELECT * FROM customer WHERE ID_NO='$user'");
             while($row = mysqli_fetch_array($result))
             {
                 echo "<p>Sender ID: ".$row['ID_NO']."</p><br>";
